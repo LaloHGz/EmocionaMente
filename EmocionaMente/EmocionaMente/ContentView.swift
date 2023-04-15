@@ -10,7 +10,8 @@ import RealityKit
 
 struct ContentView : View {
     var body: some View {
-        ARViewContainer().edgesIgnoringSafeArea(.all)
+        Text("Emociona Mente")
+        //ARViewContainer().edgesIgnoringSafeArea(.all)
     }
 }
 

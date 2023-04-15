@@ -46,6 +46,7 @@
 		F1F5FCA729EB4BBC00A848B5 /* EmocionaMenteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmocionaMenteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1F5FCAB29EB4BBC00A848B5 /* EmocionaMenteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmocionaMenteUITests.swift; sourceTree = "<group>"; };
 		F1F5FCAD29EB4BBC00A848B5 /* EmocionaMenteUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmocionaMenteUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F1F5FCBA29EB556300A848B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +97,7 @@
 		F1F5FC8D29EB4BB800A848B5 /* EmocionaMente */ = {
 			isa = PBXGroup;
 			children = (
+				F1F5FCBA29EB556300A848B5 /* Info.plist */,
 				F1F5FC8E29EB4BB800A848B5 /* AppDelegate.swift */,
 				F1F5FC9029EB4BB800A848B5 /* ContentView.swift */,
 				F1F5FC9229EB4BB800A848B5 /* Experience.rcproject */,
@@ -423,6 +425,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"EmocionaMente/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EmocionaMente/Info.plist;
 				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -453,6 +456,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"EmocionaMente/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EmocionaMente/Info.plist;
 				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
