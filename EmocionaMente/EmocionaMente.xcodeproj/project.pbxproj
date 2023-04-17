@@ -7,14 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1A18DC9129ED1940009A882B /* selecciona-la-figura-que-muestra-la-emocion.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1A18DC8B29ED1940009A882B /* selecciona-la-figura-que-muestra-la-emocion.mp3 */; };
-		1A18DC9229ED1940009A882B /* son-iguales-las-emociones.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1A18DC8C29ED1940009A882B /* son-iguales-las-emociones.mp3 */; };
-		1A18DC9329ED1940009A882B /* diferencias-entre-emociones.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1A18DC8D29ED1940009A882B /* diferencias-entre-emociones.mp3 */; };
-		1A18DC9429ED1940009A882B /* identifica-tus-emociones.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1A18DC8E29ED1940009A882B /* identifica-tus-emociones.mp3 */; };
-		1A18DC9529ED1940009A882B /* dibuja-como-te-sientes.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1A18DC8F29ED1940009A882B /* dibuja-como-te-sientes.mp3 */; };
-		1A18DC9629ED1940009A882B /* presiona-el-boton-verde.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1A18DC9029ED1940009A882B /* presiona-el-boton-verde.mp3 */; };
 		1A18DC9829ED1A2E009A882B /* PlaySound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A18DC9729ED1A2E009A882B /* PlaySound.swift */; };
 		1A18DC9A29ED239D009A882B /* son-iguales-las-emociones.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1A18DC9929ED239D009A882B /* son-iguales-las-emociones.wav */; };
+		1A18DC9C29ED2D8A009A882B /* identifica-tus-emociones.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1A18DC9B29ED2D8A009A882B /* identifica-tus-emociones.wav */; };
+		1A18DCA029ED2DC7009A882B /* dibuja-como-te-sientes.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1A18DC9D29ED2DC7009A882B /* dibuja-como-te-sientes.wav */; };
+		1A18DCA129ED2DC7009A882B /* diferencias-entre-emociones.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1A18DC9E29ED2DC7009A882B /* diferencias-entre-emociones.wav */; };
+		1A18DCA229ED2DC7009A882B /* presiona-el-boton-verde.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1A18DC9F29ED2DC7009A882B /* presiona-el-boton-verde.wav */; };
+		1A18DCA429ED2DF6009A882B /* EmocionaMenteTheme.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1A18DCA329ED2DF6009A882B /* EmocionaMenteTheme.wav */; };
 		1A1985D729ECDA72004A8D55 /* DibujoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1985D629ECDA72004A8D55 /* DibujoView.swift */; };
 		1AC24B7B29ECF32000C237E8 /* textura.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1AC24B7A29ECF32000C237E8 /* textura.jpg */; };
 		1AC24B8329ECF3AA00C237E8 /* NivelesDifModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC24B7C29ECF3AA00C237E8 /* NivelesDifModel.swift */; };
@@ -52,16 +51,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1A18DC8B29ED1940009A882B /* selecciona-la-figura-que-muestra-la-emocion.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "selecciona-la-figura-que-muestra-la-emocion.mp3"; sourceTree = "<group>"; };
-		1A18DC8C29ED1940009A882B /* son-iguales-las-emociones.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "son-iguales-las-emociones.mp3"; sourceTree = "<group>"; };
-		1A18DC8D29ED1940009A882B /* diferencias-entre-emociones.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "diferencias-entre-emociones.mp3"; sourceTree = "<group>"; };
-		1A18DC8E29ED1940009A882B /* identifica-tus-emociones.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "identifica-tus-emociones.mp3"; sourceTree = "<group>"; };
-		1A18DC8F29ED1940009A882B /* dibuja-como-te-sientes.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "dibuja-como-te-sientes.mp3"; sourceTree = "<group>"; };
-		1A18DC9029ED1940009A882B /* presiona-el-boton-verde.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "presiona-el-boton-verde.mp3"; sourceTree = "<group>"; };
 		1A18DC9729ED1A2E009A882B /* PlaySound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySound.swift; sourceTree = "<group>"; };
 		1A18DC9929ED239D009A882B /* son-iguales-las-emociones.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "son-iguales-las-emociones.wav"; sourceTree = "<group>"; };
+		1A18DC9B29ED2D8A009A882B /* identifica-tus-emociones.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "identifica-tus-emociones.wav"; sourceTree = "<group>"; };
+		1A18DC9D29ED2DC7009A882B /* dibuja-como-te-sientes.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "dibuja-como-te-sientes.wav"; sourceTree = "<group>"; };
+		1A18DC9E29ED2DC7009A882B /* diferencias-entre-emociones.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "diferencias-entre-emociones.wav"; sourceTree = "<group>"; };
+		1A18DC9F29ED2DC7009A882B /* presiona-el-boton-verde.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "presiona-el-boton-verde.wav"; sourceTree = "<group>"; };
+		1A18DCA329ED2DF6009A882B /* EmocionaMenteTheme.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = EmocionaMenteTheme.wav; sourceTree = "<group>"; };
 		1A1985D629ECDA72004A8D55 /* DibujoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DibujoView.swift; sourceTree = "<group>"; };
-		1A1985DB29ECE8AC004A8D55 /* EmocionaMenteTheme.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = EmocionaMenteTheme.mp3; sourceTree = "<group>"; };
 		1AC24B7A29ECF32000C237E8 /* textura.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = textura.jpg; sourceTree = "<group>"; };
 		1AC24B7C29ECF3AA00C237E8 /* NivelesDifModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NivelesDifModel.swift; sourceTree = "<group>"; };
 		1AC24B7D29ECF3AA00C237E8 /* ConcienciaView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConcienciaView.swift; sourceTree = "<group>"; };
@@ -113,13 +110,11 @@
 			isa = PBXGroup;
 			children = (
 				1A18DC9929ED239D009A882B /* son-iguales-las-emociones.wav */,
-				1A18DC8F29ED1940009A882B /* dibuja-como-te-sientes.mp3 */,
-				1A18DC8D29ED1940009A882B /* diferencias-entre-emociones.mp3 */,
-				1A18DC8E29ED1940009A882B /* identifica-tus-emociones.mp3 */,
-				1A18DC9029ED1940009A882B /* presiona-el-boton-verde.mp3 */,
-				1A18DC8B29ED1940009A882B /* selecciona-la-figura-que-muestra-la-emocion.mp3 */,
-				1A18DC8C29ED1940009A882B /* son-iguales-las-emociones.mp3 */,
-				1A1985DB29ECE8AC004A8D55 /* EmocionaMenteTheme.mp3 */,
+				1A18DC9D29ED2DC7009A882B /* dibuja-como-te-sientes.wav */,
+				1A18DC9E29ED2DC7009A882B /* diferencias-entre-emociones.wav */,
+				1A18DC9F29ED2DC7009A882B /* presiona-el-boton-verde.wav */,
+				1A18DCA329ED2DF6009A882B /* EmocionaMenteTheme.wav */,
+				1A18DC9B29ED2D8A009A882B /* identifica-tus-emociones.wav */,
 			);
 			path = Songs;
 			sourceTree = "<group>";
@@ -298,16 +293,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A18DC9529ED1940009A882B /* dibuja-como-te-sientes.mp3 in Resources */,
-				1A18DC9429ED1940009A882B /* identifica-tus-emociones.mp3 in Resources */,
-				1A18DC9329ED1940009A882B /* diferencias-entre-emociones.mp3 in Resources */,
+				1A18DCA229ED2DC7009A882B /* presiona-el-boton-verde.wav in Resources */,
+				1A18DC9C29ED2D8A009A882B /* identifica-tus-emociones.wav in Resources */,
+				1A18DCA129ED2DC7009A882B /* diferencias-entre-emociones.wav in Resources */,
 				1AC24B7B29ECF32000C237E8 /* textura.jpg in Resources */,
+				1A18DCA029ED2DC7009A882B /* dibuja-como-te-sientes.wav in Resources */,
 				1A18DC9A29ED239D009A882B /* son-iguales-las-emociones.wav in Resources */,
 				F1F5FC9829EB4BBC00A848B5 /* Preview Assets.xcassets in Resources */,
 				F1F5FC9529EB4BBC00A848B5 /* Assets.xcassets in Resources */,
-				1A18DC9229ED1940009A882B /* son-iguales-las-emociones.mp3 in Resources */,
-				1A18DC9129ED1940009A882B /* selecciona-la-figura-que-muestra-la-emocion.mp3 in Resources */,
-				1A18DC9629ED1940009A882B /* presiona-el-boton-verde.mp3 in Resources */,
+				1A18DCA429ED2DF6009A882B /* EmocionaMenteTheme.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -502,7 +496,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"EmocionaMente/Preview Content\"";
-				DEVELOPMENT_TEAM = 83R858L3PC;
+				DEVELOPMENT_TEAM = 3GS9752UVQ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = EmocionaMente/Info.plist;
@@ -520,7 +514,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Hackathon.EmocionaMente;
+				PRODUCT_BUNDLE_IDENTIFIER = scoopsahoy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -536,7 +530,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"EmocionaMente/Preview Content\"";
-				DEVELOPMENT_TEAM = 83R858L3PC;
+				DEVELOPMENT_TEAM = 3GS9752UVQ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = EmocionaMente/Info.plist;
@@ -554,7 +548,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Hackathon.EmocionaMente;
+				PRODUCT_BUNDLE_IDENTIFIER = scoopsahoy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;

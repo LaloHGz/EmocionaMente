@@ -25,8 +25,9 @@ struct ConcienciaView: View {
                                     .resizable()
                                     .scaledToFit()
                                     .cornerRadius(5.0)
-                                    .frame(width: 200, height: 200)
-                                
+                                    .frame(minWidth: 100)
+                                    .padding(10)
+                                    .accessibilityHint("Botón para iniciar juego de diferenciar emociones")
                                 VStack{
                                     Text("Juego diferenciar")
                                         .bold()
@@ -34,7 +35,7 @@ struct ConcienciaView: View {
                                         .padding()
                                     
                                     Button(action: {
-                                        
+                                       playSound(audio: "diferencias-entre-emociones")
                                     }){
                                         Image(systemName: "speaker.wave.3.fill")
                                             .renderingMode(.original)
@@ -59,11 +60,12 @@ struct ConcienciaView: View {
                         
                         NavigationLink(destination: FacePaintingARView(), label: {
                             HStack{
-                                Image("12")
+                                Image("14")
                                     .resizable()
                                     .scaledToFit()
                                     .cornerRadius(5.0)
                                     .frame(minWidth: 100)
+                                    .accessibilityHint("Botón para iniciar juego de identificación de emociones")
                                 VStack{
                                     Text("Juego identificar")
                                         .bold()
@@ -71,7 +73,7 @@ struct ConcienciaView: View {
                                         .padding()
                                     
                                     Button(action: {
-                                        
+                                        playSound(audio: "identifica-tus-emociones")
                                     }){
                                         Image(systemName: "speaker.wave.3.fill")
                                             .renderingMode(.original)
