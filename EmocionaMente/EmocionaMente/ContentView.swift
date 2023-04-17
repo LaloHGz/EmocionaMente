@@ -15,7 +15,7 @@ struct ContentView: View {
                    Label("Conciencia", systemImage: "brain")
                }
              
-           GlosarioView()
+           DibujoView()
                .tabItem {
                    Label("Regulación", systemImage: "brain.head.profile")
                }

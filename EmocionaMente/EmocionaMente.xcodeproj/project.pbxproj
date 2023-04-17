@@ -7,14 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1A1985C729ECCC11004A8D55 /* textura.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1A1985C629ECCC11004A8D55 /* textura.jpg */; };
-		1A1985C929ECD038004A8D55 /* ConcienciaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1985C829ECD038004A8D55 /* ConcienciaView.swift */; };
-		1A1985D029ECD077004A8D55 /* DiferenciarDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1985CA29ECD077004A8D55 /* DiferenciarDetailView.swift */; };
-		1A1985D129ECD077004A8D55 /* GlosarioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1985CB29ECD077004A8D55 /* GlosarioView.swift */; };
-		1A1985D229ECD077004A8D55 /* DiferenciarJuegoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1985CC29ECD077004A8D55 /* DiferenciarJuegoView.swift */; };
-		1A1985D329ECD077004A8D55 /* NivelesDifModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1985CD29ECD077004A8D55 /* NivelesDifModel.swift */; };
-		1A1985D429ECD077004A8D55 /* NivelesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1985CE29ECD077004A8D55 /* NivelesViewModel.swift */; };
-		1A1985D529ECD077004A8D55 /* DiferenciarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1985CF29ECD077004A8D55 /* DiferenciarView.swift */; };
+		1A1985D729ECDA72004A8D55 /* DibujoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1985D629ECDA72004A8D55 /* DibujoView.swift */; };
+		1AC24B7B29ECF32000C237E8 /* textura.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1AC24B7A29ECF32000C237E8 /* textura.jpg */; };
+		1AC24B8329ECF3AA00C237E8 /* NivelesDifModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC24B7C29ECF3AA00C237E8 /* NivelesDifModel.swift */; };
+		1AC24B8429ECF3AA00C237E8 /* ConcienciaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC24B7D29ECF3AA00C237E8 /* ConcienciaView.swift */; };
+		1AC24B8529ECF3AA00C237E8 /* DiferenciarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC24B7E29ECF3AA00C237E8 /* DiferenciarView.swift */; };
+		1AC24B8629ECF3AA00C237E8 /* DiferenciarDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC24B7F29ECF3AA00C237E8 /* DiferenciarDetailView.swift */; };
+		1AC24B8729ECF3AA00C237E8 /* NivelesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC24B8029ECF3AA00C237E8 /* NivelesViewModel.swift */; };
+		1AC24B8829ECF3AA00C237E8 /* GlosarioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC24B8129ECF3AA00C237E8 /* GlosarioView.swift */; };
+		1AC24B8929ECF3AA00C237E8 /* DiferenciarJuegoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC24B8229ECF3AA00C237E8 /* DiferenciarJuegoView.swift */; };
 		F132F47329ECB56700F168DB /* FacePaintingAR.swift in Sources */ = {isa = PBXBuildFile; fileRef = F132F47229ECB56700F168DB /* FacePaintingAR.swift */; };
 		F1F5FC8F29EB4BB800A848B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F5FC8E29EB4BB800A848B5 /* AppDelegate.swift */; };
 		F1F5FC9129EB4BB800A848B5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F5FC9029EB4BB800A848B5 /* ContentView.swift */; };
@@ -43,14 +44,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1A1985C629ECCC11004A8D55 /* textura.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = textura.jpg; path = ../../../../../../Downloads/textura.jpg; sourceTree = "<group>"; };
-		1A1985C829ECD038004A8D55 /* ConcienciaView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ConcienciaView.swift; path = ../../../../../../Downloads/Archivo/EmocionaMente/ConcienciaView.swift; sourceTree = "<group>"; };
-		1A1985CA29ECD077004A8D55 /* DiferenciarDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DiferenciarDetailView.swift; path = ../../../../../../Downloads/Archivo/EmocionaMente/DiferenciarDetailView.swift; sourceTree = "<group>"; };
-		1A1985CB29ECD077004A8D55 /* GlosarioView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GlosarioView.swift; path = ../../../../../../Downloads/Archivo/EmocionaMente/GlosarioView.swift; sourceTree = "<group>"; };
-		1A1985CC29ECD077004A8D55 /* DiferenciarJuegoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DiferenciarJuegoView.swift; path = ../../../../../../Downloads/Archivo/EmocionaMente/DiferenciarJuegoView.swift; sourceTree = "<group>"; };
-		1A1985CD29ECD077004A8D55 /* NivelesDifModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NivelesDifModel.swift; path = ../../../../../../Downloads/Archivo/EmocionaMente/NivelesDifModel.swift; sourceTree = "<group>"; };
-		1A1985CE29ECD077004A8D55 /* NivelesViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NivelesViewModel.swift; path = ../../../../../../Downloads/Archivo/EmocionaMente/NivelesViewModel.swift; sourceTree = "<group>"; };
-		1A1985CF29ECD077004A8D55 /* DiferenciarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DiferenciarView.swift; path = ../../../../../../Downloads/Archivo/EmocionaMente/DiferenciarView.swift; sourceTree = "<group>"; };
+		1A1985D629ECDA72004A8D55 /* DibujoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DibujoView.swift; sourceTree = "<group>"; };
+		1A1985DB29ECE8AC004A8D55 /* EmocionaMenteTheme.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = EmocionaMenteTheme.mp3; sourceTree = "<group>"; };
+		1AC24B7A29ECF32000C237E8 /* textura.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = textura.jpg; sourceTree = "<group>"; };
+		1AC24B7C29ECF3AA00C237E8 /* NivelesDifModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NivelesDifModel.swift; sourceTree = "<group>"; };
+		1AC24B7D29ECF3AA00C237E8 /* ConcienciaView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConcienciaView.swift; sourceTree = "<group>"; };
+		1AC24B7E29ECF3AA00C237E8 /* DiferenciarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiferenciarView.swift; sourceTree = "<group>"; };
+		1AC24B7F29ECF3AA00C237E8 /* DiferenciarDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiferenciarDetailView.swift; sourceTree = "<group>"; };
+		1AC24B8029ECF3AA00C237E8 /* NivelesViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NivelesViewModel.swift; sourceTree = "<group>"; };
+		1AC24B8129ECF3AA00C237E8 /* GlosarioView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlosarioView.swift; sourceTree = "<group>"; };
+		1AC24B8229ECF3AA00C237E8 /* DiferenciarJuegoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiferenciarJuegoView.swift; sourceTree = "<group>"; };
 		F132F47229ECB56700F168DB /* FacePaintingAR.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacePaintingAR.swift; sourceTree = "<group>"; };
 		F1F5FC8B29EB4BB800A848B5 /* EmocionaMente.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmocionaMente.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1F5FC8E29EB4BB800A848B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -90,6 +93,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A1985DA29ECE8A3004A8D55 /* Songs */ = {
+			isa = PBXGroup;
+			children = (
+				1A1985DB29ECE8AC004A8D55 /* EmocionaMenteTheme.mp3 */,
+			);
+			path = Songs;
+			sourceTree = "<group>";
+		};
 		F1F5FC8229EB4BB800A848B5 = {
 			isa = PBXGroup;
 			children = (
@@ -113,16 +124,18 @@
 		F1F5FC8D29EB4BB800A848B5 /* EmocionaMente */ = {
 			isa = PBXGroup;
 			children = (
-				1A1985C629ECCC11004A8D55 /* textura.jpg */,
+				1A1985DA29ECE8A3004A8D55 /* Songs */,
 				F1F5FCBA29EB556300A848B5 /* Info.plist */,
 				F1F5FC8E29EB4BB800A848B5 /* AppDelegate.swift */,
-				1A1985CA29ECD077004A8D55 /* DiferenciarDetailView.swift */,
-				1A1985CC29ECD077004A8D55 /* DiferenciarJuegoView.swift */,
-				1A1985CF29ECD077004A8D55 /* DiferenciarView.swift */,
-				1A1985CB29ECD077004A8D55 /* GlosarioView.swift */,
-				1A1985CD29ECD077004A8D55 /* NivelesDifModel.swift */,
-				1A1985CE29ECD077004A8D55 /* NivelesViewModel.swift */,
-				1A1985C829ECD038004A8D55 /* ConcienciaView.swift */,
+				1AC24B7A29ECF32000C237E8 /* textura.jpg */,
+				1A1985D629ECDA72004A8D55 /* DibujoView.swift */,
+				1AC24B7F29ECF3AA00C237E8 /* DiferenciarDetailView.swift */,
+				1AC24B8229ECF3AA00C237E8 /* DiferenciarJuegoView.swift */,
+				1AC24B7D29ECF3AA00C237E8 /* ConcienciaView.swift */,
+				1AC24B7E29ECF3AA00C237E8 /* DiferenciarView.swift */,
+				1AC24B8129ECF3AA00C237E8 /* GlosarioView.swift */,
+				1AC24B7C29ECF3AA00C237E8 /* NivelesDifModel.swift */,
+				1AC24B8029ECF3AA00C237E8 /* NivelesViewModel.swift */,
 				F1F5FC9029EB4BB800A848B5 /* ContentView.swift */,
 				F132F47229ECB56700F168DB /* FacePaintingAR.swift */,
 				F1F5FC9429EB4BBC00A848B5 /* Assets.xcassets */,
@@ -260,7 +273,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A1985C729ECCC11004A8D55 /* textura.jpg in Resources */,
+				1AC24B7B29ECF32000C237E8 /* textura.jpg in Resources */,
 				F1F5FC9829EB4BBC00A848B5 /* Preview Assets.xcassets in Resources */,
 				F1F5FC9529EB4BBC00A848B5 /* Assets.xcassets in Resources */,
 			);
@@ -287,16 +300,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AC24B8929ECF3AA00C237E8 /* DiferenciarJuegoView.swift in Sources */,
+				1AC24B8429ECF3AA00C237E8 /* ConcienciaView.swift in Sources */,
 				F1F5FC9129EB4BB800A848B5 /* ContentView.swift in Sources */,
+				1AC24B8829ECF3AA00C237E8 /* GlosarioView.swift in Sources */,
 				F1F5FC8F29EB4BB800A848B5 /* AppDelegate.swift in Sources */,
-				1A1985D329ECD077004A8D55 /* NivelesDifModel.swift in Sources */,
-				1A1985C929ECD038004A8D55 /* ConcienciaView.swift in Sources */,
-				1A1985D029ECD077004A8D55 /* DiferenciarDetailView.swift in Sources */,
-				1A1985D229ECD077004A8D55 /* DiferenciarJuegoView.swift in Sources */,
-				1A1985D129ECD077004A8D55 /* GlosarioView.swift in Sources */,
+				1AC24B8729ECF3AA00C237E8 /* NivelesViewModel.swift in Sources */,
+				1AC24B8529ECF3AA00C237E8 /* DiferenciarView.swift in Sources */,
+				1AC24B8329ECF3AA00C237E8 /* NivelesDifModel.swift in Sources */,
 				F132F47329ECB56700F168DB /* FacePaintingAR.swift in Sources */,
-				1A1985D429ECD077004A8D55 /* NivelesViewModel.swift in Sources */,
-				1A1985D529ECD077004A8D55 /* DiferenciarView.swift in Sources */,
+				1A1985D729ECDA72004A8D55 /* DibujoView.swift in Sources */,
+				1AC24B8629ECF3AA00C237E8 /* DiferenciarDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

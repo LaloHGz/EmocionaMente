@@ -4,5 +4,7 @@
 <dict>
 	<key>Photo Library Additions Usage Description</key>
 	<string>Access required to save selfies</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Allow To Save Drawings</string>
 </dict>
 </plist>
