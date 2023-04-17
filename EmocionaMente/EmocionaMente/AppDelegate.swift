@@ -9,18 +9,15 @@ import UIKit
 import SwiftUI
 
 
-
-
-
-/*struct FacePainting: App {
+@main
+struct FacePainting: App {
     var body: some Scene {
         WindowGroup {
-            FacePaintingARView()
+            SplashScreenView()
         }
     }
-}*/
+}
 
-@main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?

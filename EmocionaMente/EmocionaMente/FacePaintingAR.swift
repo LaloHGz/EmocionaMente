@@ -14,16 +14,16 @@ import Combine
 import simd
 import PencilKit
 
-var arView: ARView!
+var arView2: ARView!
 
 struct FacePaintingARView: View {
     @State private var showPicker = true
     let picker = PKToolPicker()
     var canvasView = PKCanvasView()
     
-    /*func TakeSnapshot() {
+    func TakeSnapshot() {
           // 1
-          arView.snapshot(saveToHDR: false) { (image) in
+          arView2.snapshot(saveToHDR: false) { (image) in
             // 2 Reduce the image size
             let compressedImage = UIImage(
               data: (image?.pngData())!)
@@ -31,9 +31,19 @@ struct FacePaintingARView: View {
             UIImageWriteToSavedPhotosAlbum(
               compressedImage!, nil, nil, nil)
           }
-    }*/
+    }
+    
     
     var body: some View {
+        Button(action: {
+            self.TakeSnapshot()
+        }) {
+            Image(systemName: "camera")
+            .font(.largeTitle)
+            .foregroundColor(.black)
+            
+        }
+       
         VStack {
             ARViewContainer(isActive: $showPicker, picker: picker, canvasView: canvasView)
                 .edgesIgnoringSafeArea(.all)
@@ -42,17 +52,6 @@ struct FacePaintingARView: View {
                 }
             DrawingViewContainer(canvasView: canvasView, picker: picker)
         }
-        
-        /*HStack{
-            Button(action: {
-                          self.TakeSnapshot()
-                      }) {
-                          Image(systemName: "camera")
-                                  .font(.largeTitle)
-                                  .foregroundColor(.red)
-                                  .clipShape(Circle())
-            }
-        }*/
     }
 }
 
@@ -65,6 +64,7 @@ struct ARViewContainer: UIViewRepresentable {
     func makeUIView(context: Context) -> FacePaintingView {
         let arView = FacePaintingView(frame: .zero)
         arView.setup(canvasView: canvasView)
+        arView2 = arView
         return arView
         
     }
@@ -75,7 +75,6 @@ struct ARViewContainer: UIViewRepresentable {
             uiView.becomeFirstResponder()
         }
     }
-    
 }
 
 
@@ -83,7 +82,7 @@ struct DrawingViewContainer: UIViewRepresentable {
 
     var canvasView: PKCanvasView
     let picker: PKToolPicker
-
+    
     func makeUIView(context: Context) -> PKCanvasView {
         self.canvasView.tool = PKInkingTool(.pen, color: .black, width: 15)
         self.canvasView.becomeFirstResponder()
