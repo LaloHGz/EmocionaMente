@@ -16,7 +16,7 @@ struct ConcienciaView: View {
                         .font(.title)
                         .bold()
                         .foregroundColor(Color(red: 40/255, green: 40/255, blue: 40/255))
-                        
+                    let _ = playSound(audio: "EmocionaMenteTheme")
                     
                     VStack{
                         NavigationLink(destination: DiferenciarView(nivel: nivelDifVM.arrNivelesDif[0]), label: {
