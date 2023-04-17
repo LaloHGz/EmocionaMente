@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A1985C729ECCC11004A8D55 /* textura.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1A1985C629ECCC11004A8D55 /* textura.jpg */; };
+		1A1985C929ECD038004A8D55 /* ConcienciaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1985C829ECD038004A8D55 /* ConcienciaView.swift */; };
+		1A1985D029ECD077004A8D55 /* DiferenciarDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1985CA29ECD077004A8D55 /* DiferenciarDetailView.swift */; };
+		1A1985D129ECD077004A8D55 /* GlosarioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1985CB29ECD077004A8D55 /* GlosarioView.swift */; };
+		1A1985D229ECD077004A8D55 /* DiferenciarJuegoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1985CC29ECD077004A8D55 /* DiferenciarJuegoView.swift */; };
+		1A1985D329ECD077004A8D55 /* NivelesDifModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1985CD29ECD077004A8D55 /* NivelesDifModel.swift */; };
+		1A1985D429ECD077004A8D55 /* NivelesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1985CE29ECD077004A8D55 /* NivelesViewModel.swift */; };
+		1A1985D529ECD077004A8D55 /* DiferenciarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1985CF29ECD077004A8D55 /* DiferenciarView.swift */; };
 		F132F47329ECB56700F168DB /* FacePaintingAR.swift in Sources */ = {isa = PBXBuildFile; fileRef = F132F47229ECB56700F168DB /* FacePaintingAR.swift */; };
 		F1F5FC8F29EB4BB800A848B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F5FC8E29EB4BB800A848B5 /* AppDelegate.swift */; };
 		F1F5FC9129EB4BB800A848B5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F5FC9029EB4BB800A848B5 /* ContentView.swift */; };
@@ -35,6 +43,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1A1985C629ECCC11004A8D55 /* textura.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = textura.jpg; path = ../../../../../../Downloads/textura.jpg; sourceTree = "<group>"; };
+		1A1985C829ECD038004A8D55 /* ConcienciaView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ConcienciaView.swift; path = ../../../../../../Downloads/Archivo/EmocionaMente/ConcienciaView.swift; sourceTree = "<group>"; };
+		1A1985CA29ECD077004A8D55 /* DiferenciarDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DiferenciarDetailView.swift; path = ../../../../../../Downloads/Archivo/EmocionaMente/DiferenciarDetailView.swift; sourceTree = "<group>"; };
+		1A1985CB29ECD077004A8D55 /* GlosarioView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GlosarioView.swift; path = ../../../../../../Downloads/Archivo/EmocionaMente/GlosarioView.swift; sourceTree = "<group>"; };
+		1A1985CC29ECD077004A8D55 /* DiferenciarJuegoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DiferenciarJuegoView.swift; path = ../../../../../../Downloads/Archivo/EmocionaMente/DiferenciarJuegoView.swift; sourceTree = "<group>"; };
+		1A1985CD29ECD077004A8D55 /* NivelesDifModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NivelesDifModel.swift; path = ../../../../../../Downloads/Archivo/EmocionaMente/NivelesDifModel.swift; sourceTree = "<group>"; };
+		1A1985CE29ECD077004A8D55 /* NivelesViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NivelesViewModel.swift; path = ../../../../../../Downloads/Archivo/EmocionaMente/NivelesViewModel.swift; sourceTree = "<group>"; };
+		1A1985CF29ECD077004A8D55 /* DiferenciarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DiferenciarView.swift; path = ../../../../../../Downloads/Archivo/EmocionaMente/DiferenciarView.swift; sourceTree = "<group>"; };
 		F132F47229ECB56700F168DB /* FacePaintingAR.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacePaintingAR.swift; sourceTree = "<group>"; };
 		F1F5FC8B29EB4BB800A848B5 /* EmocionaMente.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmocionaMente.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1F5FC8E29EB4BB800A848B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -97,8 +113,16 @@
 		F1F5FC8D29EB4BB800A848B5 /* EmocionaMente */ = {
 			isa = PBXGroup;
 			children = (
+				1A1985C629ECCC11004A8D55 /* textura.jpg */,
 				F1F5FCBA29EB556300A848B5 /* Info.plist */,
 				F1F5FC8E29EB4BB800A848B5 /* AppDelegate.swift */,
+				1A1985CA29ECD077004A8D55 /* DiferenciarDetailView.swift */,
+				1A1985CC29ECD077004A8D55 /* DiferenciarJuegoView.swift */,
+				1A1985CF29ECD077004A8D55 /* DiferenciarView.swift */,
+				1A1985CB29ECD077004A8D55 /* GlosarioView.swift */,
+				1A1985CD29ECD077004A8D55 /* NivelesDifModel.swift */,
+				1A1985CE29ECD077004A8D55 /* NivelesViewModel.swift */,
+				1A1985C829ECD038004A8D55 /* ConcienciaView.swift */,
 				F1F5FC9029EB4BB800A848B5 /* ContentView.swift */,
 				F132F47229ECB56700F168DB /* FacePaintingAR.swift */,
 				F1F5FC9429EB4BBC00A848B5 /* Assets.xcassets */,
@@ -236,6 +260,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A1985C729ECCC11004A8D55 /* textura.jpg in Resources */,
 				F1F5FC9829EB4BBC00A848B5 /* Preview Assets.xcassets in Resources */,
 				F1F5FC9529EB4BBC00A848B5 /* Assets.xcassets in Resources */,
 			);
@@ -264,7 +289,14 @@
 			files = (
 				F1F5FC9129EB4BB800A848B5 /* ContentView.swift in Sources */,
 				F1F5FC8F29EB4BB800A848B5 /* AppDelegate.swift in Sources */,
+				1A1985D329ECD077004A8D55 /* NivelesDifModel.swift in Sources */,
+				1A1985C929ECD038004A8D55 /* ConcienciaView.swift in Sources */,
+				1A1985D029ECD077004A8D55 /* DiferenciarDetailView.swift in Sources */,
+				1A1985D229ECD077004A8D55 /* DiferenciarJuegoView.swift in Sources */,
+				1A1985D129ECD077004A8D55 /* GlosarioView.swift in Sources */,
 				F132F47329ECB56700F168DB /* FacePaintingAR.swift in Sources */,
+				1A1985D429ECD077004A8D55 /* NivelesViewModel.swift in Sources */,
+				1A1985D529ECD077004A8D55 /* DiferenciarView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -423,7 +455,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"EmocionaMente/Preview Content\"";
-				DEVELOPMENT_TEAM = 83R858L3PC;
+				DEVELOPMENT_TEAM = 3GS9752UVQ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = EmocionaMente/Info.plist;
@@ -434,13 +466,13 @@
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Hackathon.EmocionaMente;
+				PRODUCT_BUNDLE_IDENTIFIER = scoopsahoy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -456,7 +488,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"EmocionaMente/Preview Content\"";
-				DEVELOPMENT_TEAM = 83R858L3PC;
+				DEVELOPMENT_TEAM = 3GS9752UVQ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = EmocionaMente/Info.plist;
@@ -467,13 +499,13 @@
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Hackathon.EmocionaMente;
+				PRODUCT_BUNDLE_IDENTIFIER = scoopsahoy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;

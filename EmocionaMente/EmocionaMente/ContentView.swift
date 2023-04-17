@@ -7,18 +7,25 @@
 
 import SwiftUI
 
-struct ContentView : View {
+struct ContentView: View {
     var body: some View {
-        //Text("Emociona Mente")
-        FacePaintingARView()
+        TabView {
+            ConcienciaView()
+               .tabItem {
+                   Label("Conciencia", systemImage: "brain")
+               }
+             
+           GlosarioView()
+               .tabItem {
+                   Label("Regulación", systemImage: "brain.head.profile")
+               }
+            
+       }
     }
 }
 
-
-#if DEBUG
-struct ContentView_Previews : PreviewProvider {
+struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
     }
 }
-#endif

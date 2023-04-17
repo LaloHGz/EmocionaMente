@@ -14,13 +14,27 @@ import Combine
 import simd
 import PencilKit
 
+var arView: ARView!
+
 struct FacePaintingARView: View {
     @State private var showPicker = true
     let picker = PKToolPicker()
     var canvasView = PKCanvasView()
-
+    
+    /*func TakeSnapshot() {
+          // 1
+          arView.snapshot(saveToHDR: false) { (image) in
+            // 2 Reduce the image size
+            let compressedImage = UIImage(
+              data: (image?.pngData())!)
+            // 3
+            UIImageWriteToSavedPhotosAlbum(
+              compressedImage!, nil, nil, nil)
+          }
+    }*/
+    
     var body: some View {
-        HStack {
+        VStack {
             ARViewContainer(isActive: $showPicker, picker: picker, canvasView: canvasView)
                 .edgesIgnoringSafeArea(.all)
                 .onTapGesture {
@@ -28,6 +42,17 @@ struct FacePaintingARView: View {
                 }
             DrawingViewContainer(canvasView: canvasView, picker: picker)
         }
+        
+        /*HStack{
+            Button(action: {
+                          self.TakeSnapshot()
+                      }) {
+                          Image(systemName: "camera")
+                                  .font(.largeTitle)
+                                  .foregroundColor(.red)
+                                  .clipShape(Circle())
+            }
+        }*/
     }
 }
 
@@ -53,7 +78,9 @@ struct ARViewContainer: UIViewRepresentable {
     
 }
 
+
 struct DrawingViewContainer: UIViewRepresentable {
+
     var canvasView: PKCanvasView
     let picker: PKToolPicker
 
@@ -178,7 +205,7 @@ class FacePaintingView: ARView {
         self.canvasView.delegate = self
 
         do {
-            sparklyNormalMap = try TextureResource.load(named: "mate")
+            sparklyNormalMap = try TextureResource.load(named: "textura")
         } catch {
             assertionFailure("Error loading sparkle map: \(error).")
         }

@@ -8,16 +8,19 @@
 import UIKit
 import SwiftUI
 
-@main
 
-struct FacePainting: App {
+
+
+
+/*struct FacePainting: App {
     var body: some Scene {
         WindowGroup {
             FacePaintingARView()
         }
     }
-}
+}*/
 
+@main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
