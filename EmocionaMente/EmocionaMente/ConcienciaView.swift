@@ -33,38 +33,74 @@ struct ConcienciaView: View {
                     
                     VStack{
                         NavigationLink(destination: DiferenciarView(nivel: nivelDifVM.arrNivelesDif[0]), label: {
-                            VStack{
+                            HStack{
+                                Image("ola")
+                                    .resizable()
+                                    .scaledToFit()
+                                    .cornerRadius(5.0)
+                                    .frame(minWidth: 100)
+                                VStack{
+                                    Text("Juego diferenciar")
+                                        .bold()
+                                        .foregroundColor(.white)
+                                        .padding()
+                                    
+                                    Button(action: {
+                                        
+                                    }){
+                                        Image(systemName: "speaker.wave.3.fill")
+                                            .renderingMode(.original)
+                                            .foregroundColor(.white)
+                                    }
+                                }
                                 
-                                Text("Juego diferenciar")
-                                    .bold()
-                                    .foregroundColor(.black)
-                                    .padding()
                             }
-                        })
-                        .frame(
-                            maxWidth: 300,
-                            minHeight: 150
-                        )
-                        .background(Color(red: 189/255, green: 200/255, blue: 88/255))
-                        .foregroundColor(.black)
-                        .clipShape(RoundedRectangle(cornerRadius: 25))
-                        .padding()
+                        
+                    })
+                    .frame(
+                        minWidth: 300,
+                        maxWidth: 300,
+                        minHeight: 150
+                    )
+                    .background(Color(red: 67/255, green: 112/255, blue: 242/255))
+                    .foregroundColor(.black)
+                    .clipShape(RoundedRectangle(cornerRadius: 25))
+                    .shadow(color: .gray, radius: 4)
+                    .scaledToFit()
                         
                         NavigationLink(destination: FacePaintingARView(), label: {
                             HStack{
-                                Text("Juego identificar")
-                                    .bold()
-                                    .foregroundColor(.black)
-                                    .padding()
+                                Image("ola")
+                                    .resizable()
+                                    .scaledToFit()
+                                    .cornerRadius(5.0)
+                                    .frame(minWidth: 100)
+                                VStack{
+                                    Text("Juego identificar")
+                                        .bold()
+                                        .foregroundColor(.white)
+                                        .padding()
+                                    
+                                    Button(action: {
+                                        
+                                    }){
+                                        Image(systemName: "speaker.wave.3.fill")
+                                            .renderingMode(.original)
+                                            .foregroundColor(.white)
+                                    }
+                                }
                             }
                         })
                         .frame(
+                            minWidth: 300,
                             maxWidth: 300,
                             minHeight: 150
                         )
-                        .background(Color(red: 189/255, green: 200/255, blue: 88/255))
+                        .background(Color(red: 255/255, green: 87/255, blue: 87/255))
                         .foregroundColor(.black)
                         .clipShape(RoundedRectangle(cornerRadius: 25))
+                        .shadow(color: .gray, radius: 4)
+                        .scaledToFit()
                         
                     }
                 }
