@@ -9,6 +9,15 @@ import UIKit
 import SwiftUI
 
 @main
+
+struct FacePainting: App {
+    var body: some Scene {
+        WindowGroup {
+            FacePaintingARView()
+        }
+    }
+}
+
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
