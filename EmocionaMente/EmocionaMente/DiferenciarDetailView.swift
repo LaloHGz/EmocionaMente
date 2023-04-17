@@ -40,7 +40,7 @@ struct DiferenciarDetailView: View {
                             // boton audio
                             Button(action: {
                                 print("button pressed")
-                                
+                                playSound(audio: "son-iguales-las-emociones")
                             }){
                                 Image(systemName: "speaker.wave.3.fill")
                                     .renderingMode(.original)

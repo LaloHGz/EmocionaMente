@@ -40,7 +40,7 @@ struct Home: View {
                     .font(.system(size: 20))
                     .bold()
                 Button(action: {
-                
+                playSound(audio: "dibuja-como-te-sientes")
                 }) {
                     
                     Image(systemName: "speaker.wave.2.fill")

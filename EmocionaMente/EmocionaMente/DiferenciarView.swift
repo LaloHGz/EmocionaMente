@@ -15,6 +15,7 @@ struct DiferenciarView: View {
         if #available(iOS 16.0, *) {
             NavigationStack{
                 VStack{
+                    
                     Text(nivel.titulo)
                         .font(.title)
                         .bold()
@@ -37,7 +38,7 @@ struct DiferenciarView: View {
                             // boton audio
                             Button(action: {
                                 print("button pressed")
-                                
+                                playSound(audio: "son-iguales-las-emociones")
                             }){
                                 Image(systemName: "speaker.wave.3.fill")
                                     .renderingMode(.original)
@@ -120,6 +121,9 @@ struct DiferenciarView: View {
         }
         
     }
+    
+    
+    
     
 }
 

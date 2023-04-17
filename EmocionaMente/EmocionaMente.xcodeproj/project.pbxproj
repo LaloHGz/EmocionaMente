@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A18DC9129ED1940009A882B /* selecciona-la-figura-que-muestra-la-emocion.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1A18DC8B29ED1940009A882B /* selecciona-la-figura-que-muestra-la-emocion.mp3 */; };
+		1A18DC9229ED1940009A882B /* son-iguales-las-emociones.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1A18DC8C29ED1940009A882B /* son-iguales-las-emociones.mp3 */; };
+		1A18DC9329ED1940009A882B /* diferencias-entre-emociones.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1A18DC8D29ED1940009A882B /* diferencias-entre-emociones.mp3 */; };
+		1A18DC9429ED1940009A882B /* identifica-tus-emociones.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1A18DC8E29ED1940009A882B /* identifica-tus-emociones.mp3 */; };
+		1A18DC9529ED1940009A882B /* dibuja-como-te-sientes.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1A18DC8F29ED1940009A882B /* dibuja-como-te-sientes.mp3 */; };
+		1A18DC9629ED1940009A882B /* presiona-el-boton-verde.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1A18DC9029ED1940009A882B /* presiona-el-boton-verde.mp3 */; };
+		1A18DC9829ED1A2E009A882B /* PlaySound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A18DC9729ED1A2E009A882B /* PlaySound.swift */; };
+		1A18DC9A29ED239D009A882B /* son-iguales-las-emociones.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1A18DC9929ED239D009A882B /* son-iguales-las-emociones.wav */; };
 		1A1985D729ECDA72004A8D55 /* DibujoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1985D629ECDA72004A8D55 /* DibujoView.swift */; };
 		1AC24B7B29ECF32000C237E8 /* textura.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1AC24B7A29ECF32000C237E8 /* textura.jpg */; };
 		1AC24B8329ECF3AA00C237E8 /* NivelesDifModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC24B7C29ECF3AA00C237E8 /* NivelesDifModel.swift */; };
@@ -44,6 +52,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1A18DC8B29ED1940009A882B /* selecciona-la-figura-que-muestra-la-emocion.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "selecciona-la-figura-que-muestra-la-emocion.mp3"; sourceTree = "<group>"; };
+		1A18DC8C29ED1940009A882B /* son-iguales-las-emociones.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "son-iguales-las-emociones.mp3"; sourceTree = "<group>"; };
+		1A18DC8D29ED1940009A882B /* diferencias-entre-emociones.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "diferencias-entre-emociones.mp3"; sourceTree = "<group>"; };
+		1A18DC8E29ED1940009A882B /* identifica-tus-emociones.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "identifica-tus-emociones.mp3"; sourceTree = "<group>"; };
+		1A18DC8F29ED1940009A882B /* dibuja-como-te-sientes.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "dibuja-como-te-sientes.mp3"; sourceTree = "<group>"; };
+		1A18DC9029ED1940009A882B /* presiona-el-boton-verde.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "presiona-el-boton-verde.mp3"; sourceTree = "<group>"; };
+		1A18DC9729ED1A2E009A882B /* PlaySound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySound.swift; sourceTree = "<group>"; };
+		1A18DC9929ED239D009A882B /* son-iguales-las-emociones.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "son-iguales-las-emociones.wav"; sourceTree = "<group>"; };
 		1A1985D629ECDA72004A8D55 /* DibujoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DibujoView.swift; sourceTree = "<group>"; };
 		1A1985DB29ECE8AC004A8D55 /* EmocionaMenteTheme.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = EmocionaMenteTheme.mp3; sourceTree = "<group>"; };
 		1AC24B7A29ECF32000C237E8 /* textura.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = textura.jpg; sourceTree = "<group>"; };
@@ -96,6 +112,13 @@
 		1A1985DA29ECE8A3004A8D55 /* Songs */ = {
 			isa = PBXGroup;
 			children = (
+				1A18DC9929ED239D009A882B /* son-iguales-las-emociones.wav */,
+				1A18DC8F29ED1940009A882B /* dibuja-como-te-sientes.mp3 */,
+				1A18DC8D29ED1940009A882B /* diferencias-entre-emociones.mp3 */,
+				1A18DC8E29ED1940009A882B /* identifica-tus-emociones.mp3 */,
+				1A18DC9029ED1940009A882B /* presiona-el-boton-verde.mp3 */,
+				1A18DC8B29ED1940009A882B /* selecciona-la-figura-que-muestra-la-emocion.mp3 */,
+				1A18DC8C29ED1940009A882B /* son-iguales-las-emociones.mp3 */,
 				1A1985DB29ECE8AC004A8D55 /* EmocionaMenteTheme.mp3 */,
 			);
 			path = Songs;
@@ -137,6 +160,7 @@
 				1AC24B7C29ECF3AA00C237E8 /* NivelesDifModel.swift */,
 				1AC24B8029ECF3AA00C237E8 /* NivelesViewModel.swift */,
 				F1F5FC9029EB4BB800A848B5 /* ContentView.swift */,
+				1A18DC9729ED1A2E009A882B /* PlaySound.swift */,
 				F132F47229ECB56700F168DB /* FacePaintingAR.swift */,
 				F1F5FC9429EB4BBC00A848B5 /* Assets.xcassets */,
 				F1F5FC9629EB4BBC00A848B5 /* Preview Content */,
@@ -250,11 +274,12 @@
 			};
 			buildConfigurationList = F1F5FC8629EB4BB800A848B5 /* Build configuration list for PBXProject "EmocionaMente" */;
 			compatibilityVersion = "Xcode 14.0";
-			developmentRegion = en;
+			developmentRegion = "es-419";
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
+				"es-419",
 			);
 			mainGroup = F1F5FC8229EB4BB800A848B5;
 			productRefGroup = F1F5FC8C29EB4BB800A848B5 /* Products */;
@@ -273,9 +298,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A18DC9529ED1940009A882B /* dibuja-como-te-sientes.mp3 in Resources */,
+				1A18DC9429ED1940009A882B /* identifica-tus-emociones.mp3 in Resources */,
+				1A18DC9329ED1940009A882B /* diferencias-entre-emociones.mp3 in Resources */,
 				1AC24B7B29ECF32000C237E8 /* textura.jpg in Resources */,
+				1A18DC9A29ED239D009A882B /* son-iguales-las-emociones.wav in Resources */,
 				F1F5FC9829EB4BBC00A848B5 /* Preview Assets.xcassets in Resources */,
 				F1F5FC9529EB4BBC00A848B5 /* Assets.xcassets in Resources */,
+				1A18DC9229ED1940009A882B /* son-iguales-las-emociones.mp3 in Resources */,
+				1A18DC9129ED1940009A882B /* selecciona-la-figura-que-muestra-la-emocion.mp3 in Resources */,
+				1A18DC9629ED1940009A882B /* presiona-el-boton-verde.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,6 +333,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1AC24B8929ECF3AA00C237E8 /* DiferenciarJuegoView.swift in Sources */,
+				1A18DC9829ED1A2E009A882B /* PlaySound.swift in Sources */,
 				1AC24B8429ECF3AA00C237E8 /* ConcienciaView.swift in Sources */,
 				F1F5FC9129EB4BB800A848B5 /* ContentView.swift in Sources */,
 				1AC24B8829ECF3AA00C237E8 /* GlosarioView.swift in Sources */,
@@ -474,6 +507,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = EmocionaMente/Info.plist;
 				INFOPLIST_KEY_NSCameraUsageDescription = "Access required for AR experience.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Allow To Save Drawings";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
@@ -507,6 +541,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = EmocionaMente/Info.plist;
 				INFOPLIST_KEY_NSCameraUsageDescription = "Access required for AR experience.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Allow To Save Drawings";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
