@@ -23,7 +23,7 @@
 		1AC24B8729ECF3AA00C237E8 /* NivelesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC24B8029ECF3AA00C237E8 /* NivelesViewModel.swift */; };
 		1AC24B8829ECF3AA00C237E8 /* GlosarioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC24B8129ECF3AA00C237E8 /* GlosarioView.swift */; };
 		1AC24B8929ECF3AA00C237E8 /* DiferenciarJuegoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC24B8229ECF3AA00C237E8 /* DiferenciarJuegoView.swift */; };
-		F118A35029ED3D0C006BF5D8 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F118A34F29ED3D0C006BF5D8 /* SplashScreen.swift */; };
+		1AFC272F2BA2459200BA7688 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AFC272E2BA2459200BA7688 /* Launch Screen.storyboard */; };
 		F132F47329ECB56700F168DB /* FacePaintingAR.swift in Sources */ = {isa = PBXBuildFile; fileRef = F132F47229ECB56700F168DB /* FacePaintingAR.swift */; };
 		F1F5FC8F29EB4BB800A848B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F5FC8E29EB4BB800A848B5 /* AppDelegate.swift */; };
 		F1F5FC9129EB4BB800A848B5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F5FC9029EB4BB800A848B5 /* ContentView.swift */; };
@@ -68,7 +68,7 @@
 		1AC24B8029ECF3AA00C237E8 /* NivelesViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NivelesViewModel.swift; sourceTree = "<group>"; };
 		1AC24B8129ECF3AA00C237E8 /* GlosarioView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlosarioView.swift; sourceTree = "<group>"; };
 		1AC24B8229ECF3AA00C237E8 /* DiferenciarJuegoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiferenciarJuegoView.swift; sourceTree = "<group>"; };
-		F118A34F29ED3D0C006BF5D8 /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		1AFC272E2BA2459200BA7688 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		F132F47229ECB56700F168DB /* FacePaintingAR.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacePaintingAR.swift; sourceTree = "<group>"; };
 		F1F5FC8B29EB4BB800A848B5 /* EmocionaMente.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmocionaMente.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1F5FC8E29EB4BB800A848B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -159,9 +159,9 @@
 				F1F5FC9029EB4BB800A848B5 /* ContentView.swift */,
 				1A18DC9729ED1A2E009A882B /* PlaySound.swift */,
 				F132F47229ECB56700F168DB /* FacePaintingAR.swift */,
+				1AFC272E2BA2459200BA7688 /* Launch Screen.storyboard */,
 				F1F5FC9429EB4BBC00A848B5 /* Assets.xcassets */,
 				F1F5FC9629EB4BBC00A848B5 /* Preview Content */,
-				F118A34F29ED3D0C006BF5D8 /* SplashScreen.swift */,
 			);
 			path = EmocionaMente;
 			sourceTree = "<group>";
@@ -304,6 +304,7 @@
 				1A18DC9A29ED239D009A882B /* son-iguales-las-emociones.wav in Resources */,
 				F1F5FC9829EB4BBC00A848B5 /* Preview Assets.xcassets in Resources */,
 				F1F5FC9529EB4BBC00A848B5 /* Assets.xcassets in Resources */,
+				1AFC272F2BA2459200BA7688 /* Launch Screen.storyboard in Resources */,
 				1A18DCA429ED2DF6009A882B /* EmocionaMenteTheme.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -336,7 +337,6 @@
 				1AC24B8829ECF3AA00C237E8 /* GlosarioView.swift in Sources */,
 				F1F5FC8F29EB4BB800A848B5 /* AppDelegate.swift in Sources */,
 				1AC24B8729ECF3AA00C237E8 /* NivelesViewModel.swift in Sources */,
-				F118A35029ED3D0C006BF5D8 /* SplashScreen.swift in Sources */,
 				1AC24B8529ECF3AA00C237E8 /* DiferenciarView.swift in Sources */,
 				1AC24B8329ECF3AA00C237E8 /* NivelesDifModel.swift in Sources */,
 				F132F47329ECB56700F168DB /* FacePaintingAR.swift in Sources */,
@@ -500,7 +500,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"EmocionaMente/Preview Content\"";
-				DEVELOPMENT_TEAM = 83R858L3PC;
+				DEVELOPMENT_TEAM = 3GS9752UVQ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = EmocionaMente/Info.plist;
@@ -508,6 +508,7 @@
 				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Allow To Save Drawings";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -534,7 +535,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"EmocionaMente/Preview Content\"";
-				DEVELOPMENT_TEAM = 83R858L3PC;
+				DEVELOPMENT_TEAM = 3GS9752UVQ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = EmocionaMente/Info.plist;
@@ -542,6 +543,7 @@
 				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Allow To Save Drawings";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
